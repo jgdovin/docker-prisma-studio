@@ -1,5 +1,7 @@
 services:
   studio:
+    container_name:
+      prisma-studio
     env_file:
       - .env
     ports:
