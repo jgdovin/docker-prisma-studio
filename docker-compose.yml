@@ -1,0 +1,10 @@
+services:
+  studio:
+    env_file:
+      - .env
+    ports:
+      - "5555:5555"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
